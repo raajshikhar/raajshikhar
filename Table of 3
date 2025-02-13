@@ -1,0 +1,10 @@
+table = 3
+mul = 1
+
+while(table<8):
+      print("Table of : ", table)
+      mul = 1
+      while (mul<11):
+            print(table, "*", mul, "=", table*mul)
+            mul +=1
+table +=1
